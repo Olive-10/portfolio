@@ -1,0 +1,46 @@
+#logo{
+    font-family: 'Dancing Script', cursive;
+    padding: 20px 3rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+img{
+    width: 30rem;
+    height: 30rem;
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    border-radius: 12rem;
+}
+.navb>ul>li>a:hover{
+   background-color: brown; 
+   border-radius: 20px;
+   transition:1s;
+}
+.text{
+  text-align: center;
+}
+main{
+    display: flex;
+    padding-top: 1rem;
+    background-color: brown;
+}
+.container{
+    display: flex;
+    background-color: brown;
+}
+.olive{
+  font-family: 'Dancing Script', cursive;
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.i{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Lobster', cursive;
+}
+footer{
+    text-align: center;
+    background-color: rgb(58, 57, 57);
+    height: 80px;
+    color: white;
+}
