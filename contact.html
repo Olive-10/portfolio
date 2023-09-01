@@ -12,9 +12,72 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
      <!-- google font ends here -->
-    <link rel="stylesheet" href="style.css">
+     <!-- bootstrap icon cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- b-icon cdn ends here -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </head>
+<style>
+main{
+  /* display: flex; */
+  padding: 1rem;
+  text-align: center;
+}
+.row{
+  display: flex;
+}
+/* #pro{
+  text-align: center;
+} */
+.i{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+}
+footer{
+  text-align: center;
+  height: 100px;
+  /* background-color: rgb(209, 32, 32); */
+}
+.col1{
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* .col2{ 
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+  border-radius: 4rem;
+} */
+.container{
+  height: 80vh;
+  text-align: center;
+  border-radius: 2rem;
+  background-color: whitesmoke;
+}
+.olive{
+  font-family: 'Dancing Script', cursive;
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+button{
+  background-color: white;
+  border-radius: 3rem;
+}
+.in{
+  padding-bottom: 2rem;
+  border-radius: 1rem;
+}
+textarea{
+  border-radius: 1rem;
+}
+footer{
+  background-color: whitesmoke;
+}
+</style>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -61,18 +124,34 @@
     </header>
     <main>
       <div class="container">
+        <h4 class="i">Contact me</h4>
         <div class="row">
-          <div class="col-md-6">
-
+          <div class="col-md-6 col1">
+            <p class="olive"></address><i class="bi bi-house-heart"></i>637 Odim Street,University of Nigeria Nsukka</p>
+            <p class="olive"><i class="bi bi-telephone"></i>08132296875</p>
+            <p class="olive"><i class="bi bi-envelope"></i>ibeakanmaolive@gmail.com</p>
+            <div>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-twitter"></i></a>
+            </div>
           </div>
-          <div class="col-md-6">
-            
+          <div class="col-md-6 col2">
+            <p class="i">Send me a message</p>
+            <form class="form" action="">
+              <label for="Name">Name</label><br>
+              <input class="in" type="text"placeholder="Name"id="name"><br>
+              <label for="Email">Email</label><br>
+              <input class="in" type="email"placeholder="Email"id="email"><br>
+              <label for="message">Message</label><br>
+              <textarea name="" id="Message" cols="30" rows="3"placeholder="Write message"></textarea><br>
+              <button>Send message</button>
+            </form>
           </div>
         </div>
       </div>
     </main>
     <footer>
-
+      <p class="olive"><small>&copy;</small>Designed by Olive</p>
     </footer>
 </body>
 </html>
