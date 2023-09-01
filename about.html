@@ -12,9 +12,42 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
      <!-- google font ends here -->
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </head>
+<style>
+  .container{
+    background-color: black;
+  }
+  main{
+    display: flex;
+    background-color: black;
+    padding: 1rem;
+    padding-bottom: 10rem;
+  }
+  #pro{
+    text-align: center;
+  }
+  .i{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+  }
+  footer{
+    text-align: center;
+    height: 100px;
+    background-color: rgb(209, 32, 32);
+  }
+  .col1{
+    display: flex;
+    justify-content: center;
+  }
+  .col2{
+    display: flex;
+    justify-content: center;
+  }
+  .img1{
+    height: 17.5rem;
+  }
+</style>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -59,18 +92,27 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col1">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
                     <h1 class="i">Little about Olive</h1>
-                    <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium officia laborum earum aliquid architecto quia neque saepe consequatur! Libero velit sit nihil delectus voluptatibus vitae quaerat, animi dolores minus. Magni.</article>
+                    <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nulla sed modi voluptatum repellat provident perspiciatis fugit ut at, doloribus, maiores, incidunt labore facere nesciunt delectus. Ipsam provident aperiam accusamus?</article>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="pexels-life-of-pix-7974.jpg" alt="Developer">
+                <div class="col-md-6 col2">
+                    <div class="card" style="width: 18rem;">
+                      <img src="pexels-life-of-pix-7974.jpg" class="card-img-top img1" alt="Developer">
+                      <div class="card-body">
+                        <!-- <a href="#" class="card-link">Visit page</a> -->
+                      </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-
+      <p><small>&copy;</small>Designed by Olive</p>
     </footer>
 </body>
 </html>
